@@ -1,1 +1,4 @@
 ﻿frame_id,object_id,issue,verdict,guideline_rule,action
+D01,eye_left,"Trạng thái mắt trái là unknown nhưng chưa có điểm mắt nào được đánh dấu che khuất","Chờ xác minh","Nếu mắt bị che cần đánh dấu occluded; nếu nhìn rõ cần xác định trạng thái mắt","Kiểm tra lại trạng thái mắt trái và các điểm đặc trưng trong CVAT"
+D02,face13,"Vị trí điểm mắt trái và mắt phải có dấu hiệu không phù hợp","Chờ xác minh","Xác định bên trái và bên phải theo người lái xe, không theo người quan sát","Kiểm tra lại vị trí các điểm mắt theo hướng khuôn mặt"
+D06,eye_left,"Trạng thái mắt trái là unknown nhưng chưa có điểm mắt nào được đánh dấu che khuất","Chờ xác minh","Nếu mắt bị che cần đánh dấu occluded; nếu nhìn rõ cần xác định trạng thái mắt","Kiểm tra lại trạng thái mắt trái và các điểm đặc trưng trong CVAT"
