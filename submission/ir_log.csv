@@ -1,0 +1,5 @@
+﻿frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,"Ảnh hồng ngoại giúp quan sát người và ghế trẻ em rõ hơn so với ảnh RGB tối",person,"Dựa vào vùng nhìn thấy để xác định khung người; giữ unknown nếu không chắc chắn"
+S01_ir,IR_sim,"Ghế trẻ em và quần áo có độ sáng xám tương tự nhau nên khó phân biệt ranh giới",child_seat,"Kiểm tra kỹ đường viền ghế trẻ em trước khi xác định khung"
+D01,real_IR,"Ánh sáng phản xạ mạnh trên mắt kính gây khó khăn khi quan sát mắt",eye_left,"Giữ unknown nếu không xác định được trạng thái mắt"
+D06,real_IR,"Khuôn mặt nghiêng và bị che khuất một phần khiến các điểm đặc trưng khó xác định",face13,"Kiểm tra các điểm bị che và đánh dấu occluded hoặc outside khi phù hợp"
